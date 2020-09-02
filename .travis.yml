@@ -1,0 +1,6 @@
+env:
+  global:
+    - MAKEFLAGS="-j"
+install: make
+language: c
+script: ./main
